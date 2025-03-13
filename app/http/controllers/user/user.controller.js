@@ -136,7 +136,7 @@ class userAuthController extends Controller {
       {
         receptor: phoneNumber,
         token: this.code,
-        template: "registerVerify",
+        template: "registerConfirm",
       },
       (response, status) => {
         console.log("kavenegar message status", status);
